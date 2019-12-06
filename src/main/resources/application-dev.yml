@@ -10,7 +10,7 @@ limit:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.106.28.211:32001/luckymoney
+    url: jdbc:mysql://39.106.28.211:32001/luckymoney?characterEncoding=utf-8
     username: root
     password: yanghao
   jpa:
